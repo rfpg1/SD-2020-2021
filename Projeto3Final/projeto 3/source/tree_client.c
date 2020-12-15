@@ -140,7 +140,7 @@ int main(int argc, char** argv){
 
                 if(data == NULL){
                     printf("A key não existe\n");
-                    free(key);
+                    //free(key);
                 } else {
                     printf("O valor associado à key %s é: %s.\n", key, (char *) data -> data);
                     data_destroy(data);
